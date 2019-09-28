@@ -50,9 +50,6 @@ namespace Dalisama.SafeHadle.example
             disposed = true;
         }
 
-        ~ImageHandleClient()
-        {
-            Dispose(false);
-        }
+      
     }
 }
